@@ -22,8 +22,8 @@ html {
     Header
 ****************/
 header  {
-  background-image: url("../images/header_bg.jpg");
-  height: 500px;
+  background-color: #033048;
+  height: 200px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
