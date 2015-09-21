@@ -1,0 +1,229 @@
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+
+
+
+/***************
+      HTML
+****************/
+html {
+  max-width: 1200px;
+}
+
+/***************
+    Header
+****************/
+header  {
+  background-image: url("../images/header_bg.jpg");
+  height: 500px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+    .header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: white;
+    }
+
+  .header2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+  }
+
+  .button1 {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f9e42e;
+    color: #033048;
+    display: block;
+    padding: 10px 50px;
+    margin-top: 50px;
+  }
+
+  .linkbutton1 {
+    color: #033048;
+    text-decoration: none;
+
+  }
+
+/*************
+  Benefits div
+**************/
+
+#benefits {
+  background-color: #f0efef;
+  height: 300px;
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1200px;
+
+  }
+
+  .benefits {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 70px;
+    padding-top: 40px;
+    color: #033048;
+  }
+
+  .benefits2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    width: 320px;
+    padding-left: 70px;
+    padding-top: 20px;
+    line-height: 1.5;
+  }
+
+  ul {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.5;
+    width: 220px;
+    padding-left: 90px;
+    padding-top: 10px;
+    color: #606161;
+    list-style: inside;
+  }
+
+/*************
+  Quote div
+**************/
+
+#quote {
+  background-image: url("../images/testimonial_bg.jpg");
+  height: 200px;
+}
+
+  .quote {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    max-width: 300px;
+    color: #606161;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  .quote2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    color: #f0efef;
+    padding-top: 10px;
+  }
+
+/**************
+Sign up button div
+***************/
+
+#sign {
+  background-color: #f9e42e;
+  height: 90px;
+}
+
+  .signbutton {
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .button2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #033048;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 50px;
+
+  }
+
+  .linkbutton2 {
+    color: white;
+    text-decoration: none;
+
+  }
+
+/**********
+  Footer
+***********/
+
+footer {
+  background-color: #121212;
+  height: 250px;
+  max-width: 1200px;
+}
+
+#social {
+  max-width: 90px;
+  margin: 0 auto;
+  padding-right: 10px;
+}
+
+  .twitter {
+    float: left;
+    padding-top: 30px;
+  }
+
+  .facebook {
+    float: right;
+    padding-top: 30px;
+  }
+
+  .footer{
+  color: #f9e42e;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  padding-top: 50px;
+  }
+
+  .copyright {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+  }
