@@ -71,3 +71,51 @@ body {
   font-size: 24px;
   color: #f9e42e;
 }
+
+/************
+  Section 1
+*************/
+
+.section1 {
+  float:left;
+  max-width: 700px;
+  margin-top: 50px;
+  margin-left: 50px;
+
+}
+
+.columnhead {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+img {
+  padding: 20px 0;
+}
+
+.psection {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #606161;
+}
+
+  .topletter {
+    font-size: 60px;
+    float: left;
+    padding-right: 10px;
+  }
+
+.readmore {
+  padding: 30px;
+  text-align: right;
+}
+
+.readlink {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+  color: #033048;
+}
