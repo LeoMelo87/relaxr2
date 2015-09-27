@@ -6,6 +6,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 
@@ -22,15 +23,19 @@ html {
 /***************
     Header
 ****************/
+body {
+  background-color: #f0efef;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 header  {
   background-color: #033048;
   max-width: 100%;
 
 }
 
-body {
-  background-color: #f0efef;
-}
+
 
 .mastheader {
   max-width: 100%;
@@ -73,14 +78,20 @@ body {
 }
 
 /************
-  Section 1
+  Sections
 *************/
 
+.main {
+  float: left;
+  max-width: 700px;
+
+}
+
 .section {
-  float:left;
   max-width: 700px;
   margin-top: 80px;
   margin-left: 130px;
+
 
 }
 
@@ -121,3 +132,30 @@ img {
   text-decoration: none;
   color: #033048;
 }
+
+/************
+    Aside
+*************/
+
+.sidebar {
+  width: 240px;
+  float: right;
+  margin-left: 20px;
+  margin-top: 80px;
+  margin-right: 220px;
+}
+
+#categories {
+  margin-bottom: 20px;
+}
+
+  .subhead {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #033048;
+  }
+
+  .subhead ul li a {
+    text-decoration: none;
+  }
