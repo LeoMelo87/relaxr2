@@ -23,15 +23,19 @@ html {
 /***************
     Header
 ****************/
+body {
+  background-color: #f0efef;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 header  {
   background-color: #033048;
   max-width: 100%;
 
 }
 
-body {
-  background-color: #f0efef;
-}
+
 
 .mastheader {
   max-width: 100%;
@@ -77,11 +81,17 @@ body {
   Sections
 *************/
 
+.main {
+  float: left;
+  max-width: 700px;
+
+}
+
 .section {
-  float:left;
   max-width: 700px;
   margin-top: 80px;
   margin-left: 130px;
+
 
 }
 
@@ -127,32 +137,25 @@ img {
     Aside
 *************/
 
-#categories {
-  float:right;
-  margin-right: 200px;
-  max-width: 240px;
-  margin-top: 60px;
-  padding-left: 20px;
-  text-align: left;
-  display: block;
-}
-
-#AboutRelaxr {
+.sidebar {
+  width: 240px;
   float: right;
-  max-width: 240px;
-  margin-top: 400px;
-
+  margin-left: 20px;
+  margin-top: 80px;
+  margin-right: 220px;
 }
 
-.subhead {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 800;
-  font-size: 32px;
+#categories {
+  margin-bottom: 20px;
 }
 
+  .subhead {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #033048;
+  }
 
-.subhead ul li a {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  font-size: 24px;
-}
+  .subhead ul li a {
+    text-decoration: none;
+  }
