@@ -31,11 +31,9 @@ body {
 
 header  {
   background-color: #033048;
-  max-width: 100%;
+  max-width: 960px;
 
 }
-
-
 
 .mastheader {
   max-width: 100%;
@@ -77,21 +75,27 @@ header  {
   color: #f9e42e;
 }
 
+
+/************
+    Wrap
+*************/
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 /************
   Sections
 *************/
 
-.main {
+.mainbody {
   float: left;
   max-width: 700px;
 
 }
 
 .section {
-  max-width: 700px;
-  margin-top: 80px;
-  margin-left: 130px;
-
 
 }
 
@@ -142,7 +146,6 @@ img {
   float: right;
   margin-left: 20px;
   margin-top: 80px;
-  margin-right: 220px;
 }
 
 #categories {
@@ -156,6 +159,6 @@ img {
     color: #033048;
   }
 
-  .subhead ul li a {
-    text-decoration: none;
-  }
+.categ ul li a {
+  text-decoration: none;
+}
